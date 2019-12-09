@@ -6,13 +6,16 @@
     }
   }
 }
-.carousel{
-  background-color: lightblue;
-  height: 130px;
-}
-.carousel-item{
-  img{
-    max-width: 102px;
-    margin-right: 200px;
+
+.partners-carousel {
+  .partner {
+    width: 302px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+    .partner-img {
+      width: 102px;
+    }
   }
 }
