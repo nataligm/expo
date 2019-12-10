@@ -1,0 +1,19 @@
+.expoSlider{
+  color: #000000;
+  height: 100px;
+  background-color: #F1A1A1;
+    .w-i-expo-carousel {
+      background-color: #fff;
+      height: 130px;
+      position: relative;
+    }
+    .expo {
+      width: 302px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .expo-img {
+        width: 102px;
+      }
+    }
+  }

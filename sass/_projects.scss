@@ -1,0 +1,52 @@
+.projects{
+  padding: 151px 40px 160px;
+  color: #000;
+  .container-fluid{
+    max-width: 1110px;
+  }
+  h2{
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+
+  .prjct-img{
+    width: 540px;
+    height: 351px;
+    //max-height: 351px;
+    margin-bottom: 55px;
+  }
+
+  .prjct-desc{
+    padding-top: 48px;
+    h4{
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 0.4px;
+      line-height: 25px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 18px;
+      letter-spacing: 0.36px;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+    .invest-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 246px;
+      height: 50px;
+      border: transparent;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 0.32px;
+      line-height: 22px;
+      background-color: #b54646;
+      background: linear-gradient(180deg, #F1A1A1 0%, #C96767 100%, #FFDBDB 100%) 0 0 no-repeat padding-box;
+      box-shadow: 0 3px 15px rgba(181, 70, 70, 0.5);
+    }
+  }
+}
